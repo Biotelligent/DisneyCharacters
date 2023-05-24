@@ -1,0 +1,195 @@
+﻿[
+    {
+        "_id": 6,
+        "films": [],
+        "shortFilms": [],
+        "tvShows": [],
+        "videoGames": [],
+        "parkAttractions": [],
+        "allies": [],
+        "enemies": [],
+        "sourceUrl": "https://disney.fandom.com/wiki/%27Olu_Mel",
+        "name": "'Olu Mel",
+        "imageUrl": "https://static.wikia.nocookie.net/disney/images/6/61/Olu_main.png",
+        "createdAt": "2021-04-12T01:25:09.759Z",
+        "updatedAt": "2021-12-20T20:39:18.031Z",
+        "url": "https://api.disneyapi.dev/characters/6",
+        "__v": 0
+    },
+    {
+        "_id": 7,
+        "films": [],
+        "shortFilms": [],
+        "tvShows": [
+            "Gravity Falls"
+        ],
+        "videoGames": [],
+        "parkAttractions": [],
+        "allies": [],
+        "enemies": [],
+        "sourceUrl": "https://disney.fandom.com/wiki/.GIFfany",
+        "name": ".GIFfany",
+        "imageUrl": "https://static.wikia.nocookie.net/disney/images/5/51/Giffany.png",
+        "createdAt": "2021-04-12T01:25:10.354Z",
+        "updatedAt": "2021-12-20T20:39:18.032Z",
+        "url": "https://api.disneyapi.dev/characters/7",
+        "__v": 0
+    },
+    {
+        "_id": 10,
+        "films": [],
+        "shortFilms": [],
+        "tvShows": [
+            "Lilo & Stitch: The Series",
+            "Stitch!"
+        ],
+        "videoGames": [
+            "Disney Tsum Tsum (game)"
+        ],
+        "parkAttractions": [],
+        "allies": [],
+        "enemies": [],
+        "sourceUrl": "https://disney.fandom.com/wiki/627",
+        "name": "627",
+        "imageUrl": "https://static.wikia.nocookie.net/disney/images/8/80/Profile_-_627.png",
+        "createdAt": "2021-04-12T01:25:58.961Z",
+        "updatedAt": "2021-12-20T20:39:18.032Z",
+        "url": "https://api.disneyapi.dev/characters/10",
+        "__v": 0
+    },
+    {
+        "_id": 11,
+        "films": [],
+        "shortFilms": [],
+        "tvShows": [],
+        "videoGames": [],
+        "parkAttractions": [
+            "The Timekeeper"
+        ],
+        "allies": [],
+        "enemies": [],
+        "sourceUrl": "https://disney.fandom.com/wiki/9-Eye",
+        "name": "9-Eye",
+        "imageUrl": "https://static.wikia.nocookie.net/disney/images/7/77/9-eye.jpg",
+        "createdAt": "2021-04-12T01:25:59.785Z",
+        "updatedAt": "2021-12-20T20:39:18.032Z",
+        "url": "https://api.disneyapi.dev/characters/11",
+        "__v": 0
+    },
+    {
+        "_id": 12,
+        "films": [],
+        "shortFilms": [],
+        "tvShows": [
+            "Pickle and Peanut"
+        ],
+        "videoGames": [],
+        "parkAttractions": [],
+        "allies": [],
+        "enemies": [],
+        "sourceUrl": "https://disney.fandom.com/wiki/90%27s_Adventure_Bear_(character)",
+        "name": "90's Adventure Bear",
+        "imageUrl": "https://static.wikia.nocookie.net/disney/images/3/3f/90%27s_Adventure_Bear_profile.png",
+        "createdAt": "2021-04-12T01:26:00.335Z",
+        "updatedAt": "2021-12-20T20:39:18.032Z",
+        "url": "https://api.disneyapi.dev/characters/12",
+        "__v": 0
+    },
+    {
+        "_id": 13,
+        "films": [],
+        "shortFilms": [],
+        "tvShows": [],
+        "videoGames": [
+            "Epic Mickey 2: The Power of Two"
+        ],
+        "parkAttractions": [],
+        "allies": [],
+        "enemies": [],
+        "sourceUrl": "https://disney.fandom.com/wiki/A.B.E.",
+        "name": "A.B.E.",
+        "imageUrl": "https://static.wikia.nocookie.net/disney/images/2/20/ABE.jpg",
+        "createdAt": "2021-04-12T01:26:00.848Z",
+        "updatedAt": "2021-12-20T20:39:18.032Z",
+        "url": "https://api.disneyapi.dev/characters/13",
+        "__v": 0
+    },
+    {
+        "_id": 14,
+        "films": [
+            "The Computer Wore Tennis Shoes",
+            "Now You See Him, Now You Don't",
+            "The Strongest Man in the World"
+        ],
+        "shortFilms": [],
+        "tvShows": [],
+        "videoGames": [],
+        "parkAttractions": [],
+        "allies": [],
+        "enemies": [],
+        "sourceUrl": "https://disney.fandom.com/wiki/A.J._Arno",
+        "name": "A.J. Arno",
+        "imageUrl": "https://static.wikia.nocookie.net/disney/images/2/2c/A.J._Arno.jpg",
+        "createdAt": "2021-04-12T01:26:01.358Z",
+        "updatedAt": "2021-12-20T20:39:18.032Z",
+        "url": "https://api.disneyapi.dev/characters/14",
+        "__v": 0
+    },
+    {
+        "_id": 15,
+        "films": [],
+        "shortFilms": [],
+        "tvShows": [
+            "Puppy Dog Pals"
+        ],
+        "videoGames": [],
+        "parkAttractions": [],
+        "allies": [],
+        "enemies": [],
+        "sourceUrl": "https://disney.fandom.com/wiki/A.R.F._(character)",
+        "name": "A.R.F.",
+        "imageUrl": "https://static.wikia.nocookie.net/disney/images/b/ba/A.R.F.png",
+        "createdAt": "2021-04-12T01:26:01.871Z",
+        "updatedAt": "2021-12-20T20:39:18.032Z",
+        "url": "https://api.disneyapi.dev/characters/15",
+        "__v": 0
+    },
+    {
+        "_id": 16,
+        "films": [
+            "Cheetah"
+        ],
+        "shortFilms": [],
+        "tvShows": [],
+        "videoGames": [],
+        "parkAttractions": [],
+        "allies": [],
+        "enemies": [],
+        "sourceUrl": "https://disney.fandom.com/wiki/Abdullah",
+        "name": "Abdullah",
+        "imageUrl": "https://static.wikia.nocookie.net/disney/images/c/cb/1087603-44532-clp-950.jpg",
+        "createdAt": "2021-04-12T01:26:02.377Z",
+        "updatedAt": "2021-12-20T20:39:18.032Z",
+        "url": "https://api.disneyapi.dev/characters/16",
+        "__v": 0
+    },
+    {
+        "_id": 17,
+        "films": [],
+        "shortFilms": [],
+        "tvShows": [
+            "The Legend of Tarzan"
+        ],
+        "videoGames": [],
+        "parkAttractions": [],
+        "allies": [],
+        "enemies": [],
+        "sourceUrl": "https://disney.fandom.com/wiki/Abigail_Markham",
+        "name": "Abigail Markham",
+        "imageUrl": "https://static.wikia.nocookie.net/disney/images/9/95/Abigail_Markham.jpeg",
+        "createdAt": "2021-04-12T01:26:02.898Z",
+        "updatedAt": "2021-12-20T20:39:18.032Z",
+        "url": "https://api.disneyapi.dev/characters/17",
+        "__v": 0
+    }
+]

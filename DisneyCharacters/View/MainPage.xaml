@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="DisneyCharacters.View.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:model="clr-namespace:DisneyCharacters.Model"
+    xmlns:viewmodel="clr-namespace:DisneyCharacters.ViewModel"
+    xmlns:ios="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific;assembly=Microsoft.Maui.Controls" ios:Page.UseSafeArea="True" Shell.NavBarIsVisible="False" Title="Disney Characters" x:DataType="viewmodel:CharacterViewModel">
+    <ContentPage.Resources>
+        <Style TargetType="BoxView">
+            <Setter Property="HeightRequest" Value="1"/>
+            <Setter Property="Color" Value="{StaticResource Gray300}"/>
+            <Setter Property="Margin" Value="-20,10"/>
+        </Style>
+    </ContentPage.Resources>
+    <StackLayout Margin="0">
+        <RefreshView IsRefreshing="{Binding IsRefreshing}" Command="{Binding RefreshDataCommand}">
+            <CarouselView x:Name="carouselView" ItemsSource="{Binding Characters}" IsScrollAnimated="False" IsBounceEnabled="False" PeekAreaInsets="0" Loop="False" EmptyView="No data - pull to refresh.">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate x:DataType="model:CharacterModel">
+                        <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="Fill" VerticalScrollBarVisibility="Never" BackgroundColor="{StaticResource GrayScroll}">
+                            <VerticalStackLayout>
+                                <Image Source="{Binding ImageUrl}" HeightRequest="300" Aspect="AspectFill" />
+                                <VerticalStackLayout Spacing="20" Margin="20">
+                                    <Label Text="{Binding Name}" FontFamily="NotoSerifBold" FontAttributes="Bold" FontSize="32"/>
+                                    <CollectionView ItemsSource="{Binding Films}" SelectionMode="None" IsGrouped="False" Header="">
+                                        <CollectionView.HeaderTemplate>
+                                            <DataTemplate>
+                                                <StackLayout>
+                                                    <Label Text="FILMS" FontFamily="PoppinsBold" FontSize="16" TextColor="{StaticResource Gray300}" />
+                                                    <BoxView />
+                                                </StackLayout>
+                                            </DataTemplate>
+                                        </CollectionView.HeaderTemplate>
+                                        <CollectionView.ItemTemplate>
+                                            <DataTemplate>
+                                                <Label Text="{Binding .}" Margin="10,1" Padding="10,6" FontFamily="PoppinsBold" FontSize="14" BackgroundColor="White"/>
+                                            </DataTemplate>
+                                        </CollectionView.ItemTemplate>
+                                    </CollectionView>
+
+                                    <CollectionView ItemsSource="{Binding ShortFilms}" SelectionMode="None" IsGrouped="False" Header="">
+                                        <CollectionView.HeaderTemplate>
+                                            <DataTemplate>
+                                                <StackLayout>
+                                                    <Label Text="SHORT FILMS" FontFamily="PoppinsBold" FontSize="16" TextColor="{StaticResource Gray300}" />
+                                                    <BoxView />
+                                                </StackLayout>
+                                            </DataTemplate>
+                                        </CollectionView.HeaderTemplate>
+                                        <CollectionView.ItemTemplate>
+                                            <DataTemplate>
+                                                <Label Text="{Binding .}" Margin="10,1" Padding="10,6" FontFamily="PoppinsBold" FontSize="14" BackgroundColor="White"/>
+                                            </DataTemplate>
+                                        </CollectionView.ItemTemplate>
+                                    </CollectionView>
+
+                                     <CollectionView ItemsSource="{Binding ParkAttractions}" SelectionMode="None" IsGrouped="False" Header="">
+                                        <CollectionView.HeaderTemplate>
+                                            <DataTemplate>
+                                                <StackLayout>
+                                                    <Label Text="PARK ATTRACTIONS" FontFamily="PoppinsBold" FontSize="16" TextColor="{StaticResource Gray300}" />
+                                                    <BoxView />
+                                                </StackLayout>
+                                            </DataTemplate>
+                                        </CollectionView.HeaderTemplate>
+                                        <CollectionView.ItemTemplate>
+                                            <DataTemplate>
+                                                <Label Text="{Binding .}" Margin="10,1" Padding="10,6" FontFamily="PoppinsBold" FontSize="14" BackgroundColor="White"/>
+                                            </DataTemplate>
+                                        </CollectionView.ItemTemplate>
+                                    </CollectionView>
+                                </VerticalStackLayout>
+                            </VerticalStackLayout>
+                        </ScrollView>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+        </RefreshView>
+    </StackLayout>
+</ContentPage>
